@@ -7,7 +7,7 @@ import MainLayout from './components/layout/MainLayout/MainLayout';
 
 import Home from './components/views/Home/Home';
 import Trips from './components/views/Trips/TripsContainer';
-import Trip from './components/'; // TODO - import other views
+//*import Trip from './components/'; // TODO - import other views
 import Info from './components/views/Info/Info';
 import NotFound from './components/views/NotFound/NotFound';
 

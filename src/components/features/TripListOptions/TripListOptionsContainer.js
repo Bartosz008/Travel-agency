@@ -10,9 +10,9 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
   changeSearchPhrase: phrase => dispatch(changeSearchPhrase(phrase)),
-  changeSearchTags: tags => dispatch(changeSearchTags(tags)),
-  removeSearchTags: tags => dispatch(removeSearchTags(tags)),
-  changeSearchDuration: (type, value) => dispatch(changeSearchDuration(type, value)),
+  //*changeSearchTags: tags => dispatch(changeSearchTags(tags)),
+ // removeSearchTags: tags => dispatch(removeSearchTags(tags)),
+  //changeSearchDuration: (type, value) => dispatch(changeSearchDuration(type, value)),
   // TODO - add more dispatchers for other filters
 });
 
