@@ -3,10 +3,11 @@ import React from 'react';
 // import styles from './OrderOption.module.scss';
 
 
-const OrderOptionText = () => (
+const OrderOptionText = ({currentValue, setOptionValue}) => (
     
   <input 
-  type="text"></input>
+  type="text" value={currentValue} onChange={event => setOptionValue(event.currentTarget.value)}></input>
+  
 )
 
 

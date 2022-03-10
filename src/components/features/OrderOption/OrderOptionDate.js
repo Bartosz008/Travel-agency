@@ -4,13 +4,15 @@ import style from "react-datepicker/dist/react-datepicker.css";
 
 class OrderOptionDate extends React.Component {
 
-    state = {
-        startDate: new Date()
+    state = { 
+        startDate: this.props.currentValue
+
     }
     handleChange = date => {
         this.setState({
           startDate: date
         });
+        this.props.setOptionValue(date)
       };
      
       render() {
